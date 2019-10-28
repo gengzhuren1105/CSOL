@@ -1,0 +1,146 @@
+main .left {
+    width: 260px;
+    height: 720px;
+    position: relative;
+    z-index: 1;
+}
+main .left .leftbg{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0) none repeat scroll 0% 0%;
+    opacity: 0.7;
+    z-index: -1;
+}
+main .left ul:nth-child(3) {
+    width: 260px;
+    height: 120px;
+    float: left;
+}
+
+main .left ul:nth-child(3) li {
+    float: left;
+}
+
+main .left ul:nth-child(3) li a {
+    display: block;
+    width: 130px;
+    height: 60px;
+}
+
+main .left ul:nth-child(3) li:first-child a {
+    background: url(../images/buttons.jpg) no-repeat 0px 0px;
+    border-right: 1px solid #2f394f;
+    border-bottom: 1px solid #2f394f;
+    box-sizing: border-box;
+    transition: all 0.4s;
+}
+
+main .left ul:nth-child(3) li:first-child a:hover {
+    background: url(../images/buttons.jpg) no-repeat 0px -59px;
+}
+
+main .left ul:nth-child(3) li:nth-child(2) a {
+    background: url(../images/buttons.jpg) no-repeat -130px 0px;
+    border-right: 1px solid #2f394f;
+    border-bottom: 1px solid #2f394f;
+    box-sizing: border-box;
+    transition: all 0.4s;
+}
+
+main .left ul:nth-child(3) li:nth-child(2) a:hover {
+    background: url(../images/buttons.jpg) no-repeat -130px -59px;
+}
+
+main .left ul:nth-child(3) li:nth-child(3) a {
+    background: url(../images/buttons.jpg) no-repeat -258px 0px;
+    border-right: 1px solid #2f394f;
+    border-bottom: 1px solid #2f394f;
+    box-sizing: border-box;
+    transition: all 0.4s;
+}
+
+main .left ul:nth-child(3) li:nth-child(3) a:hover {
+    background: url(../images/buttons.jpg) no-repeat -258px -59px;
+}
+
+main .left ul:nth-child(3) li:nth-child(4) a {
+    background: url(../images/buttons.jpg) no-repeat -386px 0px;
+    border-right: 1px solid #2f394f;
+    border-bottom: 1px solid #2f394f;
+    box-sizing: border-box;
+    transition: all 0.4s;
+}
+
+main .left ul:nth-child(3) li:nth-child(4) a:hover {
+    background: url(../images/buttons.jpg) no-repeat -386px -59px;
+}
+main .left .connect{
+    margin-top: 30px;
+    float: left;
+    width: 260px;
+    height: 80px;
+    background: url(../images/bg_info.jpg);
+    padding: 16px 20px;
+    box-sizing: border-box;
+}
+main .left .connect p{
+    font-size: 12px;
+    color: #5a6f99;
+    margin-top: 5px;
+}
+main .left ul:nth-child(5){
+    width: 260px;
+    height: 30px;
+}
+main .left ul:nth-child(5) li{
+    float: left;
+}
+main .left ul:nth-child(5) li a{
+    display: block;
+    width: 65px;
+    height: 30px;
+    background-color: #1e2535;
+    font-size: 12px;
+    color: #5a6f99;
+    line-height: 30px;
+    text-align: center;
+}
+main .left ul:nth-child(5) li a:hover{
+    color: #fff;
+}
+main .left ul:nth-child(5) li:nth-child(2) a{
+    background-color: #181e2c;
+}
+main .left ul:nth-child(5) li:nth-child(4) a{
+    background-color: #181e2c;
+}
+main .left .weichat{
+    float: left;
+    width: 260px;
+    height: 140px;
+    background: url(../images/bg_info.jpg);
+}
+main .left .cooperation{
+    float: left;
+    margin-top: 30px;
+    width: 260px;
+    height: 166px;
+    background: url(../images/bg_info.jpg);
+    overflow: hidden;
+}
+main .left .cooperation p{
+    font-size: 12px;
+    color: #5a6f99;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+main .left .cooperation  img{
+    float: left;
+    border: 1px solid #5a6f99;
+    box-sizing: border-box;
+    width: 86px;
+    margin-top: 20px;
+}

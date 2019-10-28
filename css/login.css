@@ -1,0 +1,261 @@
+header {
+    height: 100px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    ;
+}
+
+header ul {
+    margin-top: 40px;
+    margin-right: 100px;
+}
+
+header ul li {
+    display: inline-block;
+    font-size: 12px;
+    border-right: 1px solid #ccc;
+    text-align: center;
+    width: 60px;
+}
+
+header ul :last-child {
+    border: none;
+}
+
+.enjoygame {
+    margin-left: 50px;
+    width: 175px;
+    height: 50px;
+    background: url(../images/bg.png) no-repeat left -120px;
+}
+
+.main {
+    margin: 0 auto;
+    height: 400px;
+    background: url(../images/bgbanner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.loginarea {
+    width: 1210px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.appdownload {
+    display: block;
+    float: left;
+    width: 400px;
+    height: 300px;
+    margin-left: 157px;
+    margin-top: 95px;
+}
+
+.login {
+    float: right;
+    width: 400px;
+    height: 300px;
+    background-color: #fff;
+    margin-right: 100px;
+    margin-top: 50px;
+    border: 1px solid #CBCBCB;
+    border-radius: 5px;
+}
+
+.login .welcome {
+    height: 40px;
+    padding: 10px 0px;
+    box-sizing: border-box;
+    background: url(../images/login_column_h3_bg.jpg);
+    border-bottom: 1px solid #CBCBCB;
+}
+
+.accountarea {
+    margin-top: 40px;
+    width: 250px;
+    height: 40px;
+    border: 1px solid #CBCBCB;
+    line-height: 40px;
+    margin: 30px auto;
+}
+
+.accountlogo {
+    margin-top: 5px;
+    float: left;
+    width: 38px;
+    height: 30px;
+    background: url(../images/login.jpg) no-repeat -80px 0px;
+    margin-left: 1px;
+}
+
+.accountarea input {
+    float: left;
+    width: 211px;
+    height: 39px;
+    font-size: 13px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    margin-top: 1px;
+
+}
+
+.passwordarea {
+    margin-top: 20px;
+    width: 250px;
+    height: 40px;
+    border: 1px solid #CBCBCB;
+    line-height: 40px;
+    margin: 20px auto;
+}
+
+.passwordlogo {
+    margin-top: 5px;
+    float: left;
+    width: 38px;
+    height: 30px;
+    background: url(../images/login.jpg) no-repeat -117px 0px;
+    margin-left: 1px;
+}
+
+.passwordarea input {
+    float: left;
+    width: 211px;
+    height: 39px;
+    font-size: 13px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    margin-top: 1px;
+}
+
+.loginbutton {
+    width: 250px;
+    height: 40px;
+    margin: 0 auto;
+    background-color: #1765B7;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    font-family: "微软雅黑";
+    box-shadow: 0px 3px 5px black;
+    border: 1px solid #CBCBCB;
+    cursor: pointer;
+}
+
+.loginbutton:hover {
+    background-color: #2280E2;
+}
+
+.login p {
+    margin: 25px auto 0px;
+    font-size: 12px;
+}
+
+.login p a {
+    margin: 0 10px;
+}
+
+.login {
+    text-align: center;
+}
+
+.services {
+    margin-top: 40px;
+    text-align: center;
+    height: 150px;
+}
+
+.services ul {
+    width: 950px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.services ul li {
+    float: left;
+    box-shadow: 0px 0px 4px #ccc;
+}
+
+.services ul li a:hover {
+    background: url(../images/tip_column_over_bg.jpg);
+}
+
+.services ul li a {
+    padding: 30px 10px 0px;
+    display: block;
+    width: 190px;
+    height: 148px;
+    background-color: #fff;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.services ul li p {
+    float: left;
+    font-size: 12px;
+}
+.services ul li a:hover{
+    color: black;
+}
+.services ul h2 {
+    float: left;
+    font-size: 16px;
+    margin-top: 5px;
+    color: #184B82;
+}
+
+.services ul li:first-child i {
+    float: left;
+    width: 40px;
+    height: 36px;
+    background: url(../images/login_tip.jpg);
+}
+
+.services ul li:nth-child(2) i {
+    float: left;
+    width: 40px;
+    height: 36px;
+    background: url(../images/login_tip.jpg) -40px 0px;
+}
+
+.services ul li:nth-child(3) i {
+    float: left;
+    width: 40px;
+    height: 36px;
+    background: url(../images/login_tip.jpg) -84px 0px;
+}
+
+.services ul li:nth-child(4) i {
+    float: left;
+    width: 40px;
+    height: 36px;
+    background: url(../images/login_tip.jpg) -128px 0px;
+}
+
+.services ul li:last-child i {
+    float: left;
+    width: 40px;
+    height: 36px;
+    background: url(../images/login_tip.jpg) -172px 0px;
+}
+
+footer {
+    padding: 20px 120px 0px;
+    height: 80px;
+    margin-top: 50px;
+    border-top: 1px solid #ccc;
+}
+
+footer .left p {
+    font-size: 12px;
+}
+
+footer .right a {
+    display: block;
+    font-size: 12px;
+}
+
+.footercontent {
+    width: 900px;
+    margin: 0 auto;
+}

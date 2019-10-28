@@ -1,0 +1,774 @@
+nav {
+    height: 80px;
+    width: 100%;
+    background-color: #1D1D1D;
+    position: absolute;
+    overflow: hidden;
+}
+
+nav:hover {
+    overflow: visible;
+}
+
+nav:hover .ullist {
+    opacity: 0.9;
+    height: 200px;
+}
+
+.navcontent {
+    width: 1000px;
+    height: 80px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: relative;
+    line-height: 80px;
+}
+
+.navcontent .ulnav li {
+    float: left;
+    text-align: center;
+}
+
+.navcontent .ulnav li a {
+    display: block;
+    width: 110px;
+    height: 80px;
+    color: #A0A0A0;
+    position: relative;
+}
+
+.navcontent .ulnav li a:hover {
+    color: #fff;
+}
+
+.navcontent .ulnav li a:hover i {
+    opacity: 1;
+    top: 65px;
+}
+
+.navcontent .ulnav li i {
+    position: absolute;
+    top: 60px;
+    left: 50px;
+    width: 10px;
+    height: 10px;
+    background: url(../images/sprite.png) no-repeat -100px -35px;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.ullist {
+    height: 0px;
+    background-color: black;
+    z-index: 2;
+    transition: all 0.5s;
+}
+
+.ullist ul {
+    float: left;
+    margin-top: 10px;
+}
+
+.ullist ul:first-child {
+    margin-left: 230px;
+}
+
+.ullist ul li {
+    width: 110px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.ullist ul li a {
+    display: block;
+    width: 110px;
+    height: 30px;
+    background: url(../images/sprite.png) no-repeat -20px -140px;
+    color: #A0A0A0;
+}
+
+.ullist ul li a:hover {
+    background: url(../images/sprite.png) no-repeat -20px -170px;
+    color: #fff;
+}
+
+.ullistcontent {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.wei {
+    height: 80px;
+}
+
+.video {
+    position: absolute;
+    z-index: -1;
+    margin-top: -300px;
+    width: 1210px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+.video2 {
+    text-align: center;
+}
+
+.video2 a:last-child {
+    position: relative;
+    display: block;
+    width: 120px;
+    height: 30px;
+    background-color: black;
+    opacity: 0.8;
+    line-height: 30px;
+    margin: 0 auto;
+    font-weight: 900;
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.video2 a:last-child:hover {
+    opacity: 1;
+}
+
+main {
+    width: 100%;
+    margin: 20px auto 0;
+    height: 1880px;
+    padding: 20px 0;
+    background: #EEEEEE url(../images/top-shadow.png) repeat-x 0 1px;
+}
+
+.firstmain {
+    height: 300px;
+    margin-top: 20px;
+}
+
+.firstmain .left:first-child {
+    width: 350px;
+    height: 300px;
+    background: url(../images/btn_download.jpg);
+}
+
+.firstmain .left:first-child a {
+    float: left;
+}
+
+.firstmain .left:first-child a:first-child {
+    display: block;
+    width: 350px;
+    height: 200px;
+}
+
+.firstmain .left:first-child a:nth-child(2) {
+    display: inline-block;
+    width: 175px;
+    height: 100px;
+}
+
+.firstmain .left:first-child a:nth-child(3) {
+    display: inline-block;
+    width: 175px;
+    height: 100px;
+}
+
+.firstmain .right {
+    position: relative;
+    width: 185px;
+    height: 300px;
+    float: left;
+}
+
+.firstmain .right a {
+    float: left;
+    display: block;
+    width: 185px;
+    height: 100px;
+    background: #1D1D1D;
+}
+
+.firstmain .right a:first-child p {
+    width: 185px;
+    height: 100px;
+    background: url(../images/quick_btn.png) 0px 0px;
+}
+
+.firstmain .right a:nth-child(2) p {
+    width: 185px;
+    height: 100px;
+    background: url(../images/quick_btn.png) 0px 100px;
+}
+
+.firstmain .right a:nth-child(3) p {
+    width: 185px;
+    height: 100px;
+    background: url(../images/quick_btn.png) 0px 200px;
+}
+
+.firstmain .right a:hover {
+    background: url(../images/quick_bg.jpg);
+}
+
+.secondmain {
+    margin-top: 40px;
+    height: 410px;
+}
+
+.secondmain .left:first-child {
+    width: 350px;
+    height: 410px;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.secondmain h2 {
+    float: left;
+    font-size: 20px;
+}
+
+.more {
+    float: right;
+    display: block;
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #A0A0A0;
+    border-radius: 30px;
+    color: #A0A0A0;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.more:hover {
+    color: #fff;
+    background-color: #ff8c48;
+    border: 1px solid #ff8c48;
+}
+
+.secondmain .left:first-child a:nth-child(3) img {
+    margin-top: 20px;
+}
+
+.secondmain .left:first-child a:nth-child(4) img {
+    margin-top: 20px;
+}
+
+.secondmain .left:nth-child(2) {
+    width: 500px;
+    height: 410px;
+    padding: 20px 20px 0px 20px;
+    box-sizing: border-box;
+}
+
+.secondmain .right:nth-child(3) {
+    width: 350px;
+    height: 410px;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.wonderfulvideo {
+    margin-top: 30px;
+    width: 350px;
+    height: 350px;
+}
+
+.wonderfulvideo a {
+    position: relative;
+    width: 170px;
+    height: 100px;
+}
+
+.wonderfulvideo a div {
+    position: absolute;
+    width: 170px;
+    height: 100px;
+}
+
+.wonderfulvideo a div p {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    background-color: #1D1D1D;
+    opacity: 0.8;
+    color: #fff;
+    width: 170px;
+    text-align: center;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.wonderfulvideo a {
+    float: left;
+    margin-top: 20px;
+}
+
+.wonderfulvideo a:nth-child(1) {
+    margin-right: 10px;
+}
+
+.wonderfulvideo a:nth-child(3) {
+    margin-right: 10px;
+}
+
+.wonderfulvideo a:nth-child(5) {
+    margin-right: 10px;
+}
+
+.thirdmain {
+    height: 400px;
+    margin-top: 20px;
+}
+
+.thirdmain .left p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.thirdmain .right:nth-child(2) {
+    width: 840px;
+    height: 400px;
+}
+
+.thirdmain .right:nth-child(2) p {
+    font-size: 20px;
+}
+
+.thirdmain .right:nth-child(2) ul {
+    margin-top: 20px;
+}
+
+.thirdmain .right:nth-child(2) ul li {
+    float: left;
+    width: 140px;
+    height: 350px;
+}
+
+.thirdmain .right:nth-child(2) ul li a {
+    float: left;
+    display: block;
+    width: 140px;
+    height: 350px;
+}
+
+.thirdmain .right:nth-child(2) ul li:first-child a {
+    background: url(../images/bg.jpg) no-repeat 0px 0px;
+    transition: all 0.4s;
+}
+
+.thirdmain .right:nth-child(2) ul li:first-child a:hover {
+    background: url(../images/bg_hover.jpg) no-repeat 0px 0px;
+}
+
+.thirdmain .right:nth-child(2) ul li:nth-child(2) a {
+    background: url(../images/bg.jpg) no-repeat -140px 0px;
+    transition: all 0.4s;
+}
+
+.thirdmain .right:nth-child(2) ul li:nth-child(2) a:hover {
+    background: url(../images/bg_hover.jpg) no-repeat -140px 0px;
+}
+
+.thirdmain .right:nth-child(2) ul li:nth-child(3) a {
+    background: url(../images/bg.jpg) no-repeat -280px 0px;
+    transition: all 0.4s;
+}
+
+.thirdmain .right:nth-child(2) ul li:nth-child(3) a:hover {
+    background: url(../images/bg_hover.jpg) no-repeat -280px 0px;
+}
+
+.thirdmain .right:nth-child(2) ul li:nth-child(4) a {
+    background: url(../images/bg.jpg) no-repeat -420px 0px;
+    transition: all 0.4s;
+}
+
+.thirdmain .right:nth-child(2) ul li:nth-child(4) a:hover {
+    background: url(../images/bg_hover.jpg) no-repeat -420px 0px;
+}
+
+.thirdmain .right:nth-child(2) ul li:nth-child(5) a {
+    background: url(../images/bg.jpg) no-repeat -560px 0px;
+    transition: all 0.4s;
+}
+
+.thirdmain .right:nth-child(2) ul li:nth-child(5) a:hover {
+    background: url(../images/bg_hover.jpg) no-repeat -560px 0px;
+}
+
+.thirdmain .right:nth-child(2) ul li:nth-child(6) a {
+    background: url(../images/bg.jpg) no-repeat -700px 0px;
+    transition: all 0.4s;
+}
+
+.thirdmain .right:nth-child(2) ul li:nth-child(6) a:hover {
+    background: url(../images/bg_hover.jpg) no-repeat -700px 0px;
+}
+
+.forthmain {
+    height: 430px;
+    margin-top: 20px;
+}
+
+.forthmain .left:first-child {
+    width: 350px;
+    height: 430px;
+}
+
+.forthmain .left p {
+    font-size: 20px;
+}
+
+.forthmain .left .top {
+    margin-top: 20px;
+    width: 350px;
+    height: 230px;
+    background-color: #E2E2E2;
+}
+
+.forthmain .left .top .left {
+    width: 175px;
+    height: 230px;
+    text-align: center;
+}
+
+.forthmain .left .top .right {
+    width: 175px;
+    height: 230px;
+    text-align: center;
+}
+
+.forthmain .left .top p {
+    font-size: 14px;
+}
+
+.forthmain .left .top img {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.forthmain .left .bottom {
+    width: 350px;
+    height: 105px;
+    margin-top: 20px;
+}
+
+.forthmain .left .bottom a:first-child {
+    margin-right: 12px;
+}
+
+.forthmain .right {
+    width: 840px;
+    height: 430px;
+}
+
+.forthmain .right p {
+    font-size: 20px;
+}
+
+.forthmain .rightcontent {
+    width: 840px;
+    height: 400px;
+    margin-top: 20px;
+}
+
+.forthmain .rightcontent div a img{
+    transition: all 0.5s;
+}
+.forthmain .rightcontent div:hover a img {
+    transform: scale(1.2);
+}
+
+.forthmain .rightcontent div p{
+    transition: all 0.5s;
+}
+.forthmain .rightcontent div:hover p {
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+}
+
+.forthmain .rightcontent div {
+    float: left;
+}
+
+.forthmain .rightcontent div:first-child {
+    width: 350px;
+    height: 360px;
+    overflow: hidden;
+    position: relative;
+}
+
+.forthmain .rightcontent div p {
+    width: 350px;
+    left: 0;
+    bottom: -70px;
+    position: absolute;
+    background-color: #1D1D1D;
+    opacity: 0.8;
+    padding: 10px 10px;
+}
+
+.forthmain .rightcontent div p b {
+    color: #ff8c48;
+    font-size: 14px;
+}
+
+.forthmain .rightcontent div p {
+    color: #fff;
+    font-size: 12px;
+}
+
+.forthmain .rightcontent div:nth-child(2):hover p {
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    transition: all 0.5s;
+}
+
+.forthmain .rightcontent div:nth-child(2) {
+    width: 240px;
+    height: 360px;
+    overflow: hidden;
+    position: relative;
+}
+
+.forthmain .rightcontent div:nth-child(2) p {
+    width: 240px;
+    left: 0;
+    bottom: -70px;
+    position: absolute;
+    background-color: #1D1D1D;
+    opacity: 0.8;
+    padding: 10px 10px;
+}
+
+.forthmain .rightcontent div:nth-child(3):hover p {
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    transition: all 0.5s;
+}
+
+.forthmain .rightcontent div:nth-child(3) {
+    width: 250px;
+    height: 180px;
+    overflow: hidden;
+    position: relative;
+}
+
+.forthmain .rightcontent div:nth-child(3) p {
+    width: 250px;
+    left: 0;
+    bottom: -70px;
+    position: absolute;
+    background-color: #1D1D1D;
+    opacity: 0.8;
+    padding: 10px 10px;
+}
+
+.forthmain .rightcontent div:nth-child(4):hover p {
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    transition: all 0.5s;
+}
+
+.forthmain .rightcontent div:nth-child(4) {
+    width: 250px;
+    height: 180px;
+    overflow: hidden;
+    position: relative;
+}
+
+.forthmain .rightcontent div:nth-child(4) p {
+    width: 250px;
+    left: 0;
+    bottom: -70px;
+    position: absolute;
+    background-color: #1D1D1D;
+    opacity: 0.8;
+    padding: 10px 10px;
+}
+
+.fifthmain {
+    margin-top: 20px;
+    height: 240px;
+    background-color: #1f1f1f;
+    color: #fff;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.fifthmain a {
+    text-align: center;
+    line-height: 35px;
+}
+
+.fifthmain .w .left:first-child {
+    width: 320px;
+    height: 200px;
+}
+
+.fifthmain .w .left:first-child p:first-child {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.fifthmain .w .left:first-child a {
+    display: block;
+    float: left;
+    width: 150px;
+    height: 35px;
+    border: 1px solid #4f4f4f;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.fifthmain .w .left a:hover {
+    background-color: #4f4f4f;
+}
+
+.fifthmain .w .left:first-child a:nth-child(2) i {
+    display: block;
+    float: left;
+    width: 25px;
+    height: 35px;
+    margin-left: 20px;
+    background: url(../images/sprite.png) no-repeat;
+}
+
+.fifthmain .w .left:first-child a:nth-child(3) {
+    margin-left: 10px;
+}
+
+.fifthmain .w .left:first-child a:nth-child(3) i {
+    display: block;
+    float: left;
+    width: 25px;
+    height: 35px;
+    margin-left: 20px;
+    background: url(../images/sprite.png) no-repeat -25px 0;
+}
+
+.fifthmain .w .left:first-child p:nth-child(4) {
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.fifthmain .w .left:first-child p:nth-child(5) {
+    font-size: 12px;
+}
+
+.fifthmain .w .left:nth-child(2) {
+    width: 660px;
+    height: 200px;
+    margin-top: 2px;
+}
+
+.fifthmain .w .left:nth-child(2) p:first-child {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.fifthmain .w .left:nth-child(2) a:nth-child(2) {
+    display: block;
+    float: left;
+    width: 150px;
+    height: 35px;
+    border: 1px solid #4f4f4f;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.fifthmain .w .left:nth-child(2) a:nth-child(2) i {
+    display: block;
+    float: left;
+    width: 25px;
+    height: 35px;
+    margin-left: 20px;
+    background: url(../images/sprite.png) no-repeat -50px 0;
+}
+
+.fifthmain .w .left:nth-child(2) a:nth-child(3) {
+    display: block;
+    float: left;
+    width: 150px;
+    height: 35px;
+    border: 1px solid #4f4f4f;
+    margin-bottom: 20px;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.fifthmain .w .left:nth-child(2) a:nth-child(3) i {
+    display: block;
+    float: left;
+    width: 25px;
+    height: 35px;
+    margin-left: 20px;
+    background: url(../images/sprite.png) no-repeat -75px 0;
+}
+
+.fifthmain .w .left:nth-child(2) a:nth-child(4) {
+    display: block;
+    float: left;
+    width: 200px;
+    height: 35px;
+    border: 1px solid #4f4f4f;
+    margin-bottom: 20px;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.fifthmain .w .left:nth-child(2) a:nth-child(4) i {
+    display: block;
+    float: left;
+    width: 25px;
+    height: 35px;
+    margin-left: 20px;
+    background: url(../images/sprite.png) no-repeat -100px 0;
+}
+
+.fifthmain .w .left:nth-child(2) p:nth-child(5) {
+    margin-top: 80px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.fifthmain .w .left:nth-child(2) p:nth-child(6) {
+    font-size: 12px;
+}
+.conten1{
+    width: 450px;
+    height: 337px;
+    margin-top: 20px;
+}
+
+.conten1 ul li {
+    float: left;
+    width: 450px;
+    font-size: 14px;
+    height: 35px;
+    line-height: 35px;
+}
+.conten1 ul li span{
+    float: right;
+}
+.conten1 ul li p a{
+    color: black;
+}
+.conten1 ul li p a:nth-child(2){
+    margin-left: 10px;
+    color: black;
+}
+.conten1 ul li p:hover a{
+    color: #da4709;
+}
+.conten1 ul li p:hover span{
+    color: #da4709;
+}

@@ -1,0 +1,39 @@
+body {
+    background-color: #000;
+}
+
+.wrapper {
+    height: 4400px;
+}
+
+main {
+    width: 1000px;
+    height: 4000px;
+    margin: 0 auto;
+}
+main .right{
+    width: 720px;
+    margin-left: 20px;
+    height: 3950px;
+    background-color: #D8D8D8;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+main .right h1{
+    text-align: center;
+    font-size: 20px;
+    color: #5A6F9C;
+}
+main .right h2{
+    font-size: 12px;
+    text-align: center;
+    margin: 20px 0px;
+}
+main .right p{
+    font-size: 14px;
+    line-height: 25px;
+}
+main .right img{
+    display: block;
+}
+

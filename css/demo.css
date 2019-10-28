@@ -1,0 +1,15 @@
+.htmleaf-container{
+    float: left;
+    width: 675px;
+    height: 300px;
+}
+.slider {
+    float: left;
+    width: 675px;
+    height: 300px;
+    overflow: hidden;
+}
+.slider ul li img{
+    width: 675px;
+    height: 300px;
+}

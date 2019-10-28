@@ -1,0 +1,80 @@
+body {
+    background-color: #000000;
+}
+
+.wrapper {
+    height: 1400px;
+}
+
+main {
+    width: 1000px;
+    height: 1000px;
+    margin: 0 auto;
+}
+
+main .right {
+    width: 720px;
+    margin-left: 20px;
+    background-color: #D8D8D8;
+    /* padding: 30px 20px;
+    box-sizing: border-box; */
+}
+
+main .right >ul {
+    width: 720px;
+    height: 50px;
+    background-color: black;
+}
+
+main .right >ul li {
+    float: left;
+}
+
+main .right >ul li a {
+    float: left;
+    display: block;
+    width: 140px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    font-weight: 900;
+}
+
+main .right >ul li:nth-child(5) a {
+    background-color: #D8D8D8;
+    color: black;
+    border-top: 2px solid #2C6DC7;
+    box-sizing: border-box;
+}
+main .content{
+    height: auto;
+    background: #D8D8D8;
+}
+main .content ul li{
+    height: 43px;
+    width: 710px;
+    clear: both;
+    margin: 0 auto;
+}
+main .content ul li a{
+    font-size: 12px;
+    line-height: 43px;
+}
+main .content ul li em{
+    font-size: 12px;
+    line-height: 43px;
+    color:#666666;
+    float: right;
+}
+main .content ul li .lei{
+    color: #5a6f99;
+    margin-left: 15px;
+}
+main .content ul li .biao1{
+    margin-left: 10px;
+}
+main .content ul li a{
+    cursor: pointer;
+}

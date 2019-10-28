@@ -1,0 +1,75 @@
+body {
+    background-color: #000;
+}
+
+.wrapper{
+    height: auto;
+}
+main {
+    width: 1000px;
+    height: auto;
+    margin: 0 auto 30px;
+    background-color: #D8D8D8;
+}
+
+main ul {
+    width: 1000px;
+    height: 50px;
+    background-color: #000;
+}
+
+main ul li {
+    float: left;
+}
+
+main ul li a {
+    float: left;
+    display: block;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+}
+
+main ul li:first-child a {
+    background-color: #D8D8D8;
+    color: #000;
+}
+main ul li:first-child a:hover {
+    background-color: #D8D8D8;
+    color: #000;
+}
+main ul li a:hover {
+    color: #fff;
+}
+/* dasd */
+main .content{
+}
+main .content .content1{
+    width: 900px;
+    height: 200px;
+    margin: 0px auto;
+}
+main .content .content1:first-child{
+    margin-top: 20px;
+}
+main .content .content1 .content2{
+    float: right;
+    width: 575px;
+}
+main .content .content1 .content2 p a{
+    margin-left: 50px;
+    font-size: 12px;
+}
+main .content .content1 .content2 .name{
+    color: #0074B6;
+    font-size: 15px;
+    font-weight: 800px;
+}
+main .content .content1 .content2 .jie{
+    color: #666666;
+    font-size: 12px;
+}

@@ -1,0 +1,79 @@
+body {
+    background-color: #000;
+    position: relative;
+}
+
+.wrapper{
+    height: auto;
+}
+main {
+    width: 1000px;
+    height: auto;
+    margin: 0 auto 30px;
+    background-color: #D8D8D8;
+}
+
+main ul {
+    width: 1000px;
+    height: 50px;
+    background-color: #000;
+}
+
+main ul li {
+    float: left;
+}
+
+main ul li a {
+    float: left;
+    display: block;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    color: #fff;
+    
+    font-weight: 900;
+    text-align: center;
+}
+
+main ul li:nth-child(2) a {
+    background-color: #D8D8D8;
+    color: #000;
+}
+
+main ul li:nth-child(1) a:hover {
+    color: #fff;
+}
+
+main ul li:nth-child(3) a:hover {
+    color: #fff;
+}
+main .content table tr td{
+    position: relative;
+    overflow: hidden;
+    width: 225px;
+    height: 130px;
+    cursor:pointer;
+}
+main .content table tr td:hover img{
+    transform: scale(1.1);
+}
+main .content table tr td img{
+    transition: all 0.5s;
+}
+main .content table tr td:hover p{
+    height: 20px;
+    bottom: 5px;
+}
+main .content table tr td p{
+    transition: all 0.3s;
+    position: absolute;
+    left: 0px;
+    bottom: -20px;
+    background-color: #000;
+    opacity: 0.8;
+    width: 244px;
+    text-align: center;
+    color: #fff;
+    height: 0px;
+}

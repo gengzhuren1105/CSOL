@@ -1,0 +1,66 @@
+body {
+    background-color: #000;
+}
+
+.wrapper{
+    height: auto;
+}
+main {
+    width: 1000px;
+    height: auto;
+    margin: 0 auto 30px;
+    background-color: #D8D8D8;
+}
+
+main ul {
+    width: 1000px;
+    height: 50px;
+    background-color: #000;
+}
+
+main ul li {
+    float: left;
+}
+
+main ul li a {
+    float: left;
+    display: block;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+}
+
+main ul li:nth-child(2) a {
+    background-color: #D8D8D8;
+    color: #000;
+}
+main ul li:nth-child(2) a:hover {
+    background-color: #D8D8D8;
+    color: #000;
+}
+main ul li a:hover {
+    color: #fff;
+}
+/* asdas */
+
+
+main .content .content1{
+    width: 760px;
+    margin: 30px auto;
+    border: 1px solid #aaa;
+    padding: 10px;
+    background-color: #ccc;
+    border-radius: 5px;
+}
+main .content .content1 p:nth-child(2){
+    margin: 20px 0;
+}
+main .content .content1 .moshi{
+    color: #C32500;
+    font-size: 14px;
+    font-weight: bold;
+}

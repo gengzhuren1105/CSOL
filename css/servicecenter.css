@@ -1,0 +1,131 @@
+nav{
+    height: 80px;
+}
+nav .content{
+    width: 1000px;
+    margin: 0 auto;
+}
+nav .content a:first-child{
+    vertical-align: middle;
+    line-height: 80px;
+}
+nav .content ul{
+    float: right;
+}
+nav .content ul li{
+    float: left;
+}
+nav .content ul li a{
+    display: block;
+    width: 100px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    color: black;
+}
+nav .content ul li a:hover{
+    background-color: #f4f2f2;
+}
+nav .content ul li:first-child a{
+    border-bottom: 4px solid #70b54a;
+    box-sizing: border-box;
+}
+.detect{
+    height: 300px;
+    background: url(../images/banner1.jpg) no-repeat center;
+}
+.detect .content{
+    width: 1000px;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+.detect .content .detecting{
+    position: absolute;
+    right: 70px;
+    top: 150px;
+    width: 160px;
+    height: 60px;
+    background: url(../images/home_login.png) no-repeat 0px -60px;
+}
+.detect .content .detecting p{
+    line-height: 60px;
+    text-align: center;
+    font-size: 12px;
+    color: #75ccff;
+}
+.detect .content .detecting p a{
+    color: #70b54a;
+}
+.services{
+    height: 250px;
+}
+.services ul{
+    width: 1000px;
+    height: 200px;
+    margin: 50px auto 0px;
+}
+.services ul li{
+    float: left;
+    width: 160px;
+    height: 180px;
+    text-align: center;
+}
+.services ul li a{
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 112px;
+    height: 112px;
+    display: block;
+}
+.services ul li p{
+    margin-top: 20px;
+}
+.services ul li:first-child a{
+    background: url(../images/h_i_01.jpg) no-repeat;
+    transition: all 0.4s;
+}
+.services ul li:first-child a:hover{
+    background: url(../images/h_i_01_over.jpg) no-repeat;
+    transform: rotate(360deg);
+}
+.services ul li:nth-child(2) a{
+    background: url(../images/h_i_02.jpg) no-repeat;
+    transition: all 0.4s;
+}
+.services ul li:nth-child(2) a:hover{
+    background: url(../images/h_i_02_over.jpg) no-repeat;
+    transform: rotate(360deg);
+}
+.services ul li:nth-child(3) a{
+    background: url(../images/h_i_03.jpg) no-repeat;
+    transition: all 0.4s;
+}
+.services ul li:nth-child(3) a:hover{
+    background: url(../images/h_i_03_over.jpg) no-repeat;
+    transform: rotate(360deg);
+}
+.services ul li:nth-child(4) a{
+    background: url(../images/h_i_04.jpg) no-repeat;
+    transition: all 0.4s;
+}
+.services ul li:nth-child(4) a:hover{
+    background: url(../images/h_i_04_over.jpg) no-repeat;
+    transform: rotate(360deg);
+}
+.services ul li:nth-child(5) a{
+    background: url(../images/h_i_05.jpg) no-repeat;
+    transition: all 0.4s;
+}
+.services ul li:nth-child(5) a:hover{
+    background: url(../images/h_i_05_over.jpg) no-repeat;
+    transform: rotate(360deg);
+}
+.services ul li:nth-child(6) a{
+    background: url(../images/h_i_06.jpg) no-repeat;
+    transition: all 0.4s;
+}
+.services ul li:nth-child(6) a:hover{
+    background: url(../images/h_i_06_over.jpg) no-repeat;
+    transform: rotate(360deg);
+}

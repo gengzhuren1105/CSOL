@@ -1,0 +1,226 @@
+header {
+    background: url("../images/gnb_bg.jpg");
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+}
+
+.mainheader {
+    position: relative;
+}
+
+.mainheader .firstul {
+    float: left;
+    margin-left: 20px;
+}
+
+.mainheader .firstul img {
+    float: left;
+    margin-top: 10px;
+}
+
+.mainheader .firstul li {
+    float: left;
+    margin-top: 13px;
+    height: 26px;
+}
+
+.mainheader .firstul :last-child {
+    font-size: 14px;
+    font-weight: 900;
+    color: red;
+    font-family: 微软雅黑;
+    margin-top: 2px;
+}
+
+.headeradv {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 0);
+}
+
+.secondul1 {
+    float: right;
+}
+
+.secondul1 li {
+    display: inline-block;
+}
+
+.secondul1 :last-child a {
+    display: inline-block;
+    font-size: 13px;
+    background: url("../images/gnb_arrow_1.jpg") no-repeat 0px 30px;
+}
+
+.secondul1 :last-child a:hover {
+    color: #666;
+}
+
+.firstul :first-child {
+    position: relative;
+    overflow: hidden;
+    z-index: 3;
+}
+
+.firstul :first-child:hover {
+    overflow: visible;
+}
+
+.mainheader .firstul .moregame {
+    width: 562px;
+    height: 200px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 25px;
+    border: 1px solid grey;
+}
+
+.mainheader .firstul .moregame h2 {
+    border-bottom: 1px solid grey;
+    font-size: 12px;
+    font-weight: 900;
+    color: #688cc0;
+}
+
+.mainheader .firstul .moregame a {
+    font-size: 10px;
+}
+
+.mainheader .firstul .moregame .fpsgame {
+    width: 140px;
+    text-align: center;
+    border-right: 1px solid grey;
+    height: 200px;
+    box-sizing: border-box;
+}
+
+.mainheader .firstul .moregame li {
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    width: 140px;
+}
+
+.mainheader .firstul .moregame .mglf {
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+.mainheader .firstul .moregame .mgls {
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+.mainheader .firstul .moregame .mglt {
+    margin-top: 6px;
+    margin-left: 10px;
+}
+
+.mainheader .firstul .moregame .cosplay {
+    width: 140px;
+    text-align: center;
+    border-right: 1px solid grey;
+    height: 200px;
+    box-sizing: border-box;
+}
+
+.mainheader .firstul .moregame .cosplay li {
+    margin-top: 5px;
+}
+
+.mainheader .firstul .moregame .leisuregame {
+    width: 140px;
+    text-align: center;
+    border-right: 1px solid grey;
+    height: 200px;
+    box-sizing: border-box;
+}
+
+.mainheader .firstul .moregame .leisuregame li {
+    margin-top: 5px;
+}
+
+.mainheader .firstul .moregame .mobilegame {
+    width: 140px;
+    text-align: center;
+    border-right: 1px solid grey;
+    height: 200px;
+    box-sizing: border-box;
+    margin-top: 0px;
+    border-right: none;
+}
+
+.mainheader .firstul .moregame .mobilegame li {
+    margin-top: 5px;
+}
+
+.mainheader .secondul1 .fatherms {
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.mainheader .secondul1 .fatherms:hover {
+    overflow: visible;
+}
+
+.memberserve {
+    width: 120px;
+    height: 180px;
+    background-color: red;
+    position: absolute;
+    left: -80px;
+    background-color: #fff;
+    border: 1px solid grey;
+}
+
+.memberserve ul {
+    width: 120px;
+    height: 130px;
+    margin-top: 10px;
+    border-bottom: 1px solid grey;
+    text-align: center;
+}
+
+.mainheader .secondul1 .fatherms .memberserve ul li {
+    margin: 0px;
+    line-height: 20px;
+    height: 20px;
+    width: 120px;
+    display: block;
+}
+
+.memberserve ul li a {
+    background: none;
+    font-size: 12px;
+}
+
+.mainheader .secondul1 .fatherms .memberserve a:hover {
+    text-decoration: underline;
+}
+
+.memberserve ul li img {
+    margin-right: 10px;
+}
+
+.mainheader .secondul1 .fatherms .memberserve a {
+    background: none;
+}
+
+.returntop {
+    position: fixed;
+    right: 50px;
+    top: 500px;
+    z-index: 3;
+}
+
+.returntop img {
+    border-radius: 50%;
+    width: 50px;
+    transition: all 1s;
+}
+.mainheader .secondul1 p{
+    font-size: 12px;
+}
